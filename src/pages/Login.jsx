@@ -4,7 +4,7 @@ import Logo from "../ui/Logo";
 import Heading from "../ui/Heading";
 // import Button from "../ui/Button";
 // import { useNavigate } from "react-router-dom";
- import CabinTable from "../features/cabins/CabinTable";
+// import CabinTable from "../features/cabins/CabinTable";
 
 const LoginLayout = styled.main`
   min-height: 100vh;
@@ -24,7 +24,7 @@ function Login() {
       <Heading as="h4">Log in to your account</Heading>
     
       <LoginForm />
-      <CabinTable />
+{/*       <CabinTable /> */}
     </LoginLayout>
   );
 }
